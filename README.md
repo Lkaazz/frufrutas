@@ -4,7 +4,6 @@ Projeto realizado pelos alunos Leonardo Moraes e Lucas Carvalho, desenvolvido pa
 
 ## Sobre o Projeto
 
-![Tela Inicial do E-commerce]
 <div align="center"> <img src="./src/img/overview.png" /> </div>
 
 O projeto é um loja simples focada em **cestas orgânicas**, onde os usuários podem:
