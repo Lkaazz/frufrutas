@@ -1,4 +1,4 @@
-# Cestas Orgânicas
+# Frufrutas
 
 Projeto realizado pelos alunos Leonardo Moraes e Lucas Carvalho, desenvolvido para a matéria **Desenvolvimento Web** do curso de **Análise e Desenvolvimento de Sistemas**, com a aula ministrada pelo professor André Bordignon.
 

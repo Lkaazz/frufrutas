@@ -1,10 +1,10 @@
 // src/firebase.js
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
-import { getFirestore, collection, getDocs, doc, getDoc, setDoc } from 'firebase/firestore'; // Adicione setDoc aqui
+import { getFirestore, collection, getDocs, doc, getDoc, setDoc } from 'firebase/firestore'; 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAXZ9cv0SxLiahjdOjArRtlAO_O1tEa5Bk",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "aulaweb-f4d36.firebaseapp.com",
   projectId: "aulaweb-f4d36",
   storageBucket: "aulaweb-f4d36.appspot.com",
@@ -16,4 +16,4 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-export { auth, db, collection, getDocs, doc, getDoc, setDoc }; // Inclua setDoc aqui
+export { auth, db, collection, getDocs, doc, getDoc, setDoc };
